@@ -1,22 +1,67 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0f0f42;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
     width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #fff;
-    text-align: center;
+    margin: 0 auto;
 }
 
-h1 {
-    margin-bottom: 20px;
+header {
+    background: #003366;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #003366;
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .profile {
@@ -25,18 +70,13 @@ h1 {
     margin: 10px;
     background-color: #e3e3e3;
     padding: 10px;
-/*    box-shadow: 0 0 5px rgba(0,0,0,0.1);*/
 }
 
 .profile img {
-    width: 30%;
+    width: 20%;
     height: auto;
-    border-radius: 30%;
+    border-radius: 10%;
     float:left;
-}
-
-.profile h2 {
-    margin: 10px 0;
 }
 
 .profile p {
@@ -46,3 +86,11 @@ h1 {
     margin-left: 5%;
     width: 60%;
 }
+
+.profile h3 {
+    margin-left: 5%;
+    margin-bottom: 0%;
+    float: left;
+}
+
+
